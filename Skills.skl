@@ -1,0 +1,69 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "sim4_krntlM5put8h",
+			"name": "Primordial Magic",
+			"difficulty": "iq/vh",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least"
+						}
+					}
+				]
+			},
+			"points": 1
+		},
+		{
+			"id": "q5CjwEwkVZgQq_QZv",
+			"name": "Clumsy Invocations",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Primordial Magic"
+			},
+			"points": 1
+		},
+		{
+			"id": "qvp-pWXSRZIMtIul_",
+			"name": "Keen Invocations",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Primordial Magic"
+			},
+			"points": 1
+		},
+		{
+			"id": "q0ScxoD9uMP3amP9e",
+			"name": "Brilliant Invocations",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Primordial Magic"
+			},
+			"points": 1
+		},
+		{
+			"id": "qMLiA-aestkHgavY1",
+			"name": "Deft Invocations",
+			"difficulty": "a",
+			"default": {
+				"type": "skill",
+				"name": "Primordial Magic"
+			},
+			"limit": 0,
+			"points": 1
+		}
+	]
+}
